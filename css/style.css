@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #9DA9A0;
+    min-height: 706px;
+}
+header #left {
+    padding-top: 10em;
+    width: 40%;
+    padding-left: 10px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+header button {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 20px 40px 20px 40px;
+    background: #C0CAAD;
+    border: none;
+    border-radius: 10px;
+}
+header button:hover {
+    color: #B26E63;
+    background: #CEC075;
+}
+header #right {
+    position: absolute;
+    text-align: right;
+    width: 55%;
+    right: 0;
+    display: inline-block;
+}
+header img{
+    vertical-align: middle;
+    max-height: 547px;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+header h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: #B26E63;
+    font-family: 'Bebas Neue', cursive;
+}
+header .container-fluid {
+    background: #B26E63;
+}
+.navbar-inverse {
+    border: none !important;
+    position: fixed;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent !important;
+}
+.navbar-header {
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .navbar-toggle {
+        float: none !important;
+        border-color: transparent !important;
+        display: inline-block !important;
+    }
+}
+
+.navbar-toggle:hover {
+    background-color: #CEC075 !important;
+}
+.navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #CEC075 !important;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #CEC075 !important;
+}
+#myNavbar a{
+    text-align: center;
+    color: #654C4F;
+    font-weight: bolder;
+}
+section {
+    background: #C0CAAD;
+}
+section h2{
+    font-family: 'Bebas Neue', cursive;
+}
+#start p {
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+    font-size: 1.5em;
+    float: left;
+    width: 55%;
+}
+#start img {
+    padding: 20px 10px 20px 10px;
+    width: 40%;;
+}
+#start {
+    text-align: center;
+}
+#contact {
+    font-family: 'Pacifico', cursive;
+}
+#cRight {
+    width: 35%;
+    float: right;
+}
+#cLeft {
+    padding-left: 20px;
+    display: inline-block;
+    width: 60%;
+    font-size: 1.5em;
+}
+#cLeft input {
+    background: #C0CAAD;
+    border-color: transparent;
+    border-radius: 4px;
+}
+#cLeft a, input[type=text] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+#contact #submit {
+    margin: 20px;
+    font-size: 1em;
+    padding: 5px;
+}
+@media (max-width: 740px) {
+    header #left {
+        width: 95%;
+        text-align: center;
+    }
+    #start p{
+        width: 95%;
+        text-align: center;
+    }
+    img {
+        display: none;
+    }
+}
+
